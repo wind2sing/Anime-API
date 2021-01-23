@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9
 
 WORKDIR /code
 
@@ -10,4 +10,4 @@ COPY ./ /code/
 
 EXPOSE 6001
 
-CMD [ "python", "./demo.py" ]
+CMD [ "python", "./deploy.py" ]
