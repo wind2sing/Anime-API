@@ -3,7 +3,7 @@ import os
 
 if __name__ == '__main__':
     rt = Router()
-    rt.listen("0.0.0.0", port=6001, ws_port=6002)
+    rt.listen("0.0.0.0", port=80, ws_port=6002)
     domain = os.getenv('DOMAIN')
     if(domain):
       print("Set Domain:",domain)

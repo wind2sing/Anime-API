@@ -8,6 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY ./ /code/
 
-EXPOSE 6001
+EXPOSE 80
 
 CMD [ "python", "./deploy.py" ]
