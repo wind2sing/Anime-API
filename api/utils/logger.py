@@ -9,7 +9,7 @@ logger = logging.getLogger('anime')
 logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter(
-    fmt="[%(asctime)s] %(levelname)s [%(filename)s:%(lineno)d] %(funcName)s - %(message)s",
+    fmt="[%(asctime)s] [%(levelname)s] [%(filename)s:%(lineno)d] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S")
 
 # 输出日志到控制台
